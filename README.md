@@ -11,7 +11,7 @@
 ![MSFS](https://img.shields.io/badge/MSFS-2020%20%7C%202024-1465A3?style=flat-square)
 ![X-Plane](https://img.shields.io/badge/X--Plane%2012-Experimental-orange?style=flat-square)
 
-**[⬇ Download Windows Installer](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Setup.exe)** · **[📦 Download Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Portable.zip)**
+**[⬇ Download Windows Installer](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-Setup.exe)** · **[📦 Download Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-Portable.zip)**
 
 [Latest Release](https://github.com/erencevikk/PilotPing/releases/latest) · [Report a Bug](https://github.com/erencevikk/PilotPing/issues/new) · [Türkçe ↓](#türkçe)
 
@@ -39,14 +39,14 @@ It is a companion, **not a replacement for your ATC client or pilot responsibili
 | 📒 **Flight history** | Local flight log with CSV/JSON export. |
 | 🌐 **Bilingual** | English and Turkish interface. |
 
-### ⬇ Download v1.0.0
+### ⬇ Download v1.0.1
 
 | Package | Download |
 | :-- | :-- |
-| Windows Installer (.exe) | **[Install PilotPing](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Setup.exe)** |
-| Portable (.zip) | [Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Portable.zip) |
-| Checksums | [SHA-256](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-SHA256SUMS.txt) |
-| Source archive | [Source ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Source.zip) |
+| Windows Installer (.exe) | **[Install PilotPing](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-Setup.exe)** |
+| Portable (.zip) | [Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-Portable.zip) |
+| Checksums | [SHA-256](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-SHA256SUMS.txt) |
+| Source archive | [Source ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-Source.zip) |
 
 Use the **[latest releases page](https://github.com/erencevikk/PilotPing/releases/latest)** for updates.
 
@@ -106,7 +106,7 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 
 ### ⬇ İndir
 
-**[Windows Kurulum Dosyası (.exe)](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Setup.exe)** · **[Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Portable.zip)** · **[En Güncel Sürüm](https://github.com/erencevikk/PilotPing/releases/latest)**
+**[Windows Kurulum Dosyası (.exe)](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-Setup.exe)** · **[Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-Portable.zip)** · **[En Güncel Sürüm](https://github.com/erencevikk/PilotPing/releases/latest)**
 
 ### 🚀 Kurulum
 
@@ -123,7 +123,7 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 
 - [Yeni sürümler ve değişiklikler](https://github.com/erencevikk/PilotPing/releases/latest)
 - [Hata bildir / özellik öner](https://github.com/erencevikk/PilotPing/issues/new)
-- [İndirme dosyalarının SHA-256 doğrulaması](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-SHA256SUMS.txt)
+- [İndirme dosyalarının SHA-256 doğrulaması](https://github.com/erencevikk/PilotPing/releases/download/v1.0.1/PilotPing-v1.0.1-SHA256SUMS.txt)
 
 Uçuş kayıtları yerel saklanır. Telegram etkinse seçtiğin bildirim içerikleri Telegram üzerinden iletilir. Hata raporlarında bot tokenı, Chat ID veya özel bilgi paylaşma.
 
