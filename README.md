@@ -1,2 +1,139 @@
-# PilotPing
-Windows flight monitoring, IVAO and VATSIM Telegram alerts, and landing analysis for Microsoft Flight Simulator.
+[PilotPing_README.md](https://github.com/user-attachments/files/35090034/PilotPing_README.md)
+<div align="center">
+
+# ✈️ PilotPing
+
+### Your flight companion, even when you're away from the cockpit.
+
+**Flight monitoring · IVAO & VATSIM alerts · Landing analysis · Flight history**
+
+[![Latest release](https://img.shields.io/github/v/release/erencevikk/PilotPing?style=flat-square&label=Latest%20release)](https://github.com/erencevikk/PilotPing/releases/latest)
+![Windows](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square)
+![MSFS](https://img.shields.io/badge/MSFS-2020%20%7C%202024-1465A3?style=flat-square)
+![X-Plane](https://img.shields.io/badge/X--Plane%2012-Experimental-orange?style=flat-square)
+
+**[⬇ Download Windows Installer](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Setup.exe)** · **[📦 Download Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Portable.zip)**
+
+[Latest Release](https://github.com/erencevikk/PilotPing/releases/latest) · [Report a Bug](https://github.com/erencevikk/PilotPing/issues/new) · [Türkçe ↓](#türkçe)
+
+</div>
+
+---
+
+## 🌍 English
+
+### Meet PilotPing
+
+PilotPing is a **Windows flight simulation companion** for Microsoft Flight Simulator 2020 & 2024. Stay informed of supported IVAO/VATSIM messages, configure Away and Present notifications, and review locally recorded flights and landings.
+
+It is a companion, **not a replacement for your ATC client or pilot responsibilities**. Features depend on available simulator telemetry, compatible network clients and your setup.
+
+### ✨ Features
+
+| Feature | Description |
+| :-- | :-- |
+| 📩 **IVAO & VATSIM alerts** | Optional Telegram notifications for supported IVAO Altitude and VATSIM vPilot messages. |
+| 🧑‍✈️ **Away / Present** | Automatic and manual modes with configurable alerts. |
+| 🛫 **Flight monitoring** | Selected flight event monitoring and manual top-of-descent reminders. |
+| 🗺️ **SimBrief** | Optional planned-route import. |
+| 🛬 **Landing analysis** | Recorded landing metrics and 2D replay when enough data exists. |
+| 📒 **Flight history** | Local flight log with CSV/JSON export. |
+| 🌐 **Bilingual** | English and Turkish interface. |
+
+### ⬇ Download v1.0.0
+
+| Package | Download |
+| :-- | :-- |
+| Windows Installer (.exe) | **[Install PilotPing](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Setup.exe)** |
+| Portable (.zip) | [Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Portable.zip) |
+| Checksums | [SHA-256](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-SHA256SUMS.txt) |
+| Source archive | [Source ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Source.zip) |
+
+Use the **[latest releases page](https://github.com/erencevikk/PilotPing/releases/latest)** for updates.
+
+### 🚀 Quick Start
+
+1. Run the installer, or extract Portable ZIP and launch `PilotPing.exe`.
+2. Launch MSFS 2020/2024 and check the simulator connection in PilotPing.
+3. Configure notification preferences and optional integrations in Settings.
+4. For Telegram alerts, set up your own bot/chat credentials.
+5. If using IVAO or VATSIM, test client message detection before relying on notifications.
+6. Review flight history and landing data after your flight.
+
+Both Windows packages include the x64 SimConnect client.
+
+### 🧩 Compatibility
+
+| Simulator / Integration | Support | Notes |
+| :-- | :-- | :-- |
+| MSFS 2020 | ✅ Supported | SimConnect on Windows |
+| MSFS 2024 | ✅ Supported | SimConnect on Windows |
+| IVAO Altitude | ✅ Supported integration | Supported messages and client setup required |
+| VATSIM vPilot | ✅ Supported integration | Supported messages and client setup required |
+| Telegram | ✅ Optional | Requires user configuration |
+| SimBrief | ✅ Optional | Planned-route import |
+| X-Plane 12.1.1+ | 🧪 Experimental | Basic telemetry, feature coverage more limited than MSFS |
+
+**X-Plane:** Uses the X-Plane Web API for basic parameters such as altitude, speed, position and fuel. Aircraft-specific autopilot status detection is available for ToLiss and Zibo. Select **Settings → Simulator → X-PLANE**, then check **Diagnostics**.
+
+### 🔔 Updates, Privacy & Support
+
+- **Updates:** Follow [GitHub Releases](https://github.com/erencevikk/PilotPing/releases/latest). Do not assume unattended auto-update.
+- **Privacy:** Flight history is stored locally. If Telegram alerts are enabled, configured alert content is transmitted through Telegram.
+- **Support:** [Open an issue](https://github.com/erencevikk/PilotPing/issues/new) with app version, simulator version and steps to reproduce. Remove tokens, chat IDs and other secrets from logs.
+- **Verification:** Compare downloaded package checksums against the official SHA-256 file.
+
+---
+
+## 🇹🇷 Türkçe
+
+### PilotPing nedir?
+
+PilotPing, **Microsoft Flight Simulator 2020 ve 2024** için geliştirilmiş bir Windows uçuş yardımcı uygulamasıdır. Desteklenen IVAO/VATSIM mesajlarını takip etme, Away/Present bildirimleri, uçuş geçmişi ve iniş analizi özelliklerini tek yerde toplar.
+
+PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yerine geçmez. Özelliklerin kapsamı simülatör verilerine, desteklenen istemcilere ve yapılandırmaya bağlıdır.
+
+### ✨ Özellikler
+
+| Özellik | Açıklama |
+| :-- | :-- |
+| 📩 **IVAO ve VATSIM uyarıları** | Desteklenen IVAO Altitude ve VATSIM vPilot mesajları için isteğe bağlı Telegram bildirimi. |
+| 🧑‍✈️ **Away / Present** | Otomatik ve manuel pilot varlığı yönetimi. |
+| 🛫 **Uçuş takibi** | Seçili uçuş olayları ve manuel TOD hatırlatmaları. |
+| 🗺️ **SimBrief** | İsteğe bağlı planlanan rota aktarımı. |
+| 🛬 **İniş analizi** | Kaydedilen iniş ölçümleri ve veri mevcutsa 2D tekrar. |
+| 📒 **Uçuş geçmişi** | Yerel kayıtlar ve CSV/JSON dışa aktarma. |
+| 🌐 **Dil desteği** | Türkçe / İngilizce arayüz. |
+
+### ⬇ İndir
+
+**[Windows Kurulum Dosyası (.exe)](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Setup.exe)** · **[Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-Portable.zip)** · **[En Güncel Sürüm](https://github.com/erencevikk/PilotPing/releases/latest)**
+
+### 🚀 Kurulum
+
+1. Kurulum dosyasını çalıştır veya Portable ZIP içinden `PilotPing.exe` dosyasını aç.
+2. MSFS 2020/2024'ü başlat ve simülatör bağlantısını denetle.
+3. Ayarlar'dan dili, bildirimleri ve isteğe bağlı entegrasyonları yapılandır.
+4. Telegram bildirimleri için bot ve sohbet bilgilerini gir.
+5. IVAO/VATSIM mesaj algılamasını gerçek uçuş öncesinde test et.
+6. Uçuş bittiğinde uçuş geçmişini ve iniş analizini incele.
+
+**Deneysel X-Plane 12.1.1+ desteği:** X-Plane Web API üzerinden temel telemetriyi okur. ToLiss ve Zibo için uçağa özel otopilot durumu algılama desteği vardır. **Ayarlar → Simülatör → X-PLANE** bölümünü seç ve **Tanılama** ekranından doğrula. Telemetri kapsamı MSFS'ten daha sınırlıdır.
+
+### 🛠 Güncellemeler ve Destek
+
+- [Yeni sürümler ve değişiklikler](https://github.com/erencevikk/PilotPing/releases/latest)
+- [Hata bildir / özellik öner](https://github.com/erencevikk/PilotPing/issues/new)
+- [İndirme dosyalarının SHA-256 doğrulaması](https://github.com/erencevikk/PilotPing/releases/download/v1.0.0/PilotPing-v1.0.0-SHA256SUMS.txt)
+
+Uçuş kayıtları yerel saklanır. Telegram etkinse seçtiğin bildirim içerikleri Telegram üzerinden iletilir. Hata raporlarında bot tokenı, Chat ID veya özel bilgi paylaşma.
+
+---
+
+<div align="center">
+
+**Developed by Eren Çevik** · Built for the flight simulation community
+
+[Download](https://github.com/erencevikk/PilotPing/releases/latest) · [Feedback](https://github.com/erencevikk/PilotPing/issues/new) · [Back to top ↑](#️-pilotping)
+
+</div>
