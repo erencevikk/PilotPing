@@ -1,4 +1,3 @@
-[PilotPing_README.md](https://github.com/user-attachments/files/35090034/PilotPing_README.md)
 <div align="center">
 
 # ✈️ PilotPing
