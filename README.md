@@ -23,6 +23,8 @@
 
 ### Meet PilotPing
 
+[Watch the PilotPing demo on YouTube (in Turkish, with Turkish captions)](https://youtu.be/O55r6WOE1uM)
+
 PilotPing is a **Windows flight simulation companion** for Microsoft Flight Simulator 2020 & 2024. Stay informed of supported IVAO/VATSIM messages, configure Away and Present notifications, and review locally recorded flights and landings.
 
 It is a companion, **not a replacement for your ATC client or pilot responsibilities**. Features depend on available simulator telemetry, compatible network clients and your setup.
@@ -69,6 +71,7 @@ Both Windows packages include the x64 SimConnect client.
 | MSFS 2024 | ✅ Supported | SimConnect on Windows |
 | IVAO Altitude | ✅ Supported integration | Supported messages and client setup required |
 | VATSIM vPilot | ✅ Supported integration | Supported messages and client setup required |
+| VATSIM xPilot / swift | Client detection only | Telegram message forwarding is unavailable in v1.0.1 |
 | Telegram | ✅ Optional | Requires user configuration |
 | SimBrief | ✅ Optional | Planned-route import |
 | X-Plane 12.1.1+ | 🧪 Experimental | Basic telemetry, feature coverage more limited than MSFS |
@@ -88,6 +91,8 @@ Both Windows packages include the x64 SimConnect client.
 
 ### PilotPing nedir?
 
+[PilotPing tanıtımını ve Telegram bildirim demosunu YouTube’da izle](https://youtu.be/O55r6WOE1uM)
+
 PilotPing, **Microsoft Flight Simulator 2020 ve 2024** için geliştirilmiş bir Windows uçuş yardımcı uygulamasıdır. Desteklenen IVAO/VATSIM mesajlarını takip etme, Away/Present bildirimleri, uçuş geçmişi ve iniş analizi özelliklerini tek yerde toplar.
 
 PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yerine geçmez. Özelliklerin kapsamı simülatör verilerine, desteklenen istemcilere ve yapılandırmaya bağlıdır.
@@ -96,7 +101,7 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 
 | Özellik | Açıklama |
 | :-- | :-- |
-| 📩 **IVAO ve VATSIM uyarıları** | Desteklenen IVAO Altitude ve VATSIM vPilot mesajları için isteğe bağlı Telegram bildirimi. |
+| 📩 **IVAO ve VATSIM uyarıları** | Desteklenen IVAO Altitude ve VATSIM vPilot mesajları için isteğe bağlı Telegram bildirimi. xPilot ve swift algılanabilir, ancak bu istemcilerden Telegram’a mesaj aktarımı v1.0.1’de desteklenmiyor. |
 | 🧑‍✈️ **Away / Present** | Otomatik ve manuel pilot varlığı yönetimi. |
 | 🛫 **Uçuş takibi** | Seçili uçuş olayları ve manuel TOD hatırlatmaları. |
 | 🗺️ **SimBrief** | İsteğe bağlı planlanan rota aktarımı. |
@@ -110,7 +115,7 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 
 ### 🚀 Kurulum
 
-1. Kurulum dosyasını çalıştır veya Portable ZIP içinden `PilotPing.exe` dosyasını aç.
+1. `PilotPing-v1.0.1-Setup.exe` kurulum dosyasını çalıştır veya Portable ZIP’i bir klasöre çıkarıp içindeki `PilotPing.exe` dosyasını aç.
 2. MSFS 2020/2024'ü başlat ve simülatör bağlantısını denetle.
 3. Ayarlar'dan dili, bildirimleri ve isteğe bağlı entegrasyonları yapılandır.
 4. Telegram bildirimleri için bot ve sohbet bilgilerini gir.
