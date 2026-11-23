@@ -11,7 +11,7 @@
 ![MSFS](https://img.shields.io/badge/MSFS-2020%20%7C%202024-1465A3?style=flat-square)
 ![X-Plane](https://img.shields.io/badge/X--Plane%2012-Experimental-orange?style=flat-square)
 
-**[⬇ Download Windows Installer](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-Setup.exe)** · **[📦 Download Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-Portable.zip)**
+**[⬇ Download Windows Installer](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-Setup.exe)** · **[📦 Download Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-Portable.zip)**
 
 [Latest Release](https://github.com/erencevikk/PilotPing/releases/latest) · [Report a Bug](https://github.com/erencevikk/PilotPing/issues/new) · [Türkçe ↓](#türkçe)
 
@@ -41,14 +41,16 @@ It is a companion, **not a replacement for your ATC client or pilot responsibili
 | 📒 **Flight history** | Local flight log with CSV/JSON export. |
 | 🌐 **Bilingual** | English and Turkish interface. |
 
-### ⬇ Download v1.0.2
+### ⬇ Download v1.0.3
+
+**v1.0.3 patch.** Keyboard and mouse monitoring stops when simulator telemetry disconnects, including while Away. Reconnecting resumes monitoring without counting as pilot input.
 
 | Package | Download |
 | :-- | :-- |
-| Windows Installer (.exe) | **[Install PilotPing](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-Setup.exe)** |
-| Portable (.zip) | [Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-Portable.zip) |
-| Checksums | [SHA-256](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-SHA256SUMS.txt) |
-| Source archive | [Source ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-Source.zip) |
+| Windows Installer (.exe) | **[Install PilotPing](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-Setup.exe)** |
+| Portable (.zip) | [Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-Portable.zip) |
+| Checksums | [SHA-256](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-SHA256SUMS.txt) |
+| Source archive | [Source ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-Source.zip) |
 
 Use the **[latest releases page](https://github.com/erencevikk/PilotPing/releases/latest)** for updates.
 
@@ -71,7 +73,7 @@ Both Windows packages include the x64 SimConnect client.
 | MSFS 2024 | ✅ Supported | SimConnect on Windows |
 | IVAO Altitude | ✅ Supported integration | Supported messages and client setup required |
 | VATSIM vPilot | ✅ Supported integration | Supported messages and client setup required |
-| VATSIM xPilot / swift | Client detection only | Telegram message forwarding is unavailable in v1.0.2 |
+| VATSIM xPilot / swift | Client detection only | Telegram message forwarding is unavailable for these clients |
 | Telegram | ✅ Optional | Requires user configuration |
 | SimBrief | ✅ Optional | Planned-route import |
 | X-Plane 12.1.1+ | 🧪 Experimental | Basic telemetry, feature coverage more limited than MSFS |
@@ -101,7 +103,7 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 
 | Özellik | Açıklama |
 | :-- | :-- |
-| 📩 **IVAO ve VATSIM uyarıları** | Desteklenen IVAO Altitude ve VATSIM vPilot mesajları için isteğe bağlı Telegram bildirimi. xPilot ve swift algılanabilir, ancak bu istemcilerden Telegram’a mesaj aktarımı v1.0.2’de desteklenmiyor. |
+| 📩 **IVAO ve VATSIM uyarıları** | Desteklenen IVAO Altitude ve VATSIM vPilot mesajları için isteğe bağlı Telegram bildirimi. xPilot ve swift algılanabilir, ancak bu istemcilerden Telegram’a mesaj aktarımı desteklenmiyor. |
 | 🧑‍✈️ **Away / Present** | Otomatik ve manuel pilot varlığı yönetimi. |
 | 🛫 **Uçuş takibi** | Seçili uçuş olayları ve manuel TOD hatırlatmaları. |
 | 🗺️ **SimBrief** | İsteğe bağlı planlanan rota aktarımı. |
@@ -109,13 +111,15 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 | 📒 **Uçuş geçmişi** | Yerel kayıtlar ve CSV/JSON dışa aktarma. |
 | 🌐 **Dil desteği** | Türkçe / İngilizce arayüz. |
 
-### ⬇ İndir
+### ⬇ İndir v1.0.3
 
-**[Windows Kurulum Dosyası (.exe)](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-Setup.exe)** · **[Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-Portable.zip)** · **[En Güncel Sürüm](https://github.com/erencevikk/PilotPing/releases/latest)**
+**v1.0.3 yaması.** Simülatör bağlantısı kesildiğinde, Away durumunda da klavye ve fare izleme durur. Bağlantının geri gelmesi pilot girişi sayılmaz.
+
+**[Windows Kurulum Dosyası (.exe)](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-Setup.exe)** · **[Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-Portable.zip)** · **[En Güncel Sürüm](https://github.com/erencevikk/PilotPing/releases/latest)**
 
 ### 🚀 Kurulum
 
-1. `PilotPing-v1.0.2-Setup.exe` kurulum dosyasını çalıştır veya Portable ZIP’i bir klasöre çıkarıp içindeki `PilotPing.exe` dosyasını aç.
+1. `PilotPing-v1.0.3-Setup.exe` kurulum dosyasını çalıştır veya Portable ZIP’i bir klasöre çıkarıp içindeki `PilotPing.exe` dosyasını aç.
 2. MSFS 2020/2024'ü başlat ve simülatör bağlantısını denetle.
 3. Ayarlar'dan dili, bildirimleri ve isteğe bağlı entegrasyonları yapılandır.
 4. Telegram bildirimleri için bot ve sohbet bilgilerini gir.
@@ -128,7 +132,7 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 
 - [Yeni sürümler ve değişiklikler](https://github.com/erencevikk/PilotPing/releases/latest)
 - [Hata bildir / özellik öner](https://github.com/erencevikk/PilotPing/issues/new)
-- [İndirme dosyalarının SHA-256 doğrulaması](https://github.com/erencevikk/PilotPing/releases/download/v1.0.2/PilotPing-v1.0.2-SHA256SUMS.txt)
+- [İndirme dosyalarının SHA-256 doğrulaması](https://github.com/erencevikk/PilotPing/releases/download/v1.0.3/PilotPing-v1.0.3-SHA256SUMS.txt)
 
 Uçuş kayıtları yerel saklanır. Telegram etkinse seçtiğin bildirim içerikleri Telegram üzerinden iletilir. Hata raporlarında bot tokenı, Chat ID veya özel bilgi paylaşma.
 
