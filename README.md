@@ -11,7 +11,7 @@
 ![MSFS](https://img.shields.io/badge/MSFS-2020%20%7C%202024-1465A3?style=flat-square)
 ![X-Plane](https://img.shields.io/badge/X--Plane%2012-Experimental-orange?style=flat-square)
 
-**[⬇ Download Windows Installer](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-Setup.exe)** · **[📦 Download Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-Portable.zip)**
+**[⬇ Download Windows Installer](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-Setup.exe)** · **[📦 Download Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-Portable.zip)**
 
 [Latest Release](https://github.com/erencevikk/PilotPing/releases/latest) · [Report a Bug](https://github.com/erencevikk/PilotPing/issues/new) · [Türkçe ↓](#türkçe)
 
@@ -41,16 +41,16 @@ It is a companion, **not a replacement for your ATC client or pilot responsibili
 | 📒 **Flight history** | Local flight log with CSV/JSON export. |
 | 🌐 **Bilingual** | English and Turkish interface. |
 
-### ⬇ Download v1.0.7
+### ⬇ Download v1.0.8
 
-**What’s new in v1.0.7.** On MSFS, the displayed and sent altitude is now the altimeter reading (indicated altitude); this has automated tests only and is not yet compared with a cockpit altimeter in a live session. Clicking the update notification now opens the update window, and an Update button stays in the menu while a newer release is available. ⚠️ **Automatic pause is still experimental** and not verified in a live MSFS session. It is off by default. Stay near the computer, watch your descent, do not use it online, and resume inside MSFS if the sim stays paused.
+**What’s new in v1.0.8.** The card shown when PilotPing starts with MSFS or Windows now has the creator's photo, scales with Windows display scaling and stays for 12 seconds (not yet seen in a live MSFS start). Starting PilotPing yourself opens the welcome window. The v1.0.7 change that shows MSFS altitude as the altimeter reading has automated tests only and is not yet compared with a cockpit altimeter. ⚠️ **Automatic pause is still experimental** and not verified in a live MSFS session. It is off by default. Stay near the computer, watch your descent, do not use it online, and resume inside MSFS if the sim stays paused.
 
 | Package | Download |
 | :-- | :-- |
-| Windows Installer (.exe) | **[Install PilotPing](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-Setup.exe)** |
-| Portable (.zip) | [Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-Portable.zip) |
-| Checksums | [SHA-256](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-SHA256SUMS.txt) |
-| Source archive | [Source ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-Source.zip) |
+| Windows Installer (.exe) | **[Install PilotPing](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-Setup.exe)** |
+| Portable (.zip) | [Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-Portable.zip) |
+| Checksums | [SHA-256](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-SHA256SUMS.txt) |
+| Source archive | [Source ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-Source.zip) |
 
 Use the **[latest releases page](https://github.com/erencevikk/PilotPing/releases/latest)** for updates.
 
@@ -111,15 +111,15 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 | 📒 **Uçuş geçmişi** | Yerel kayıtlar ve CSV/JSON dışa aktarma. |
 | 🌐 **Dil desteği** | Türkçe / İngilizce arayüz. |
 
-### ⬇ İndir v1.0.7
+### ⬇ İndir v1.0.8
 
-**v1.0.7’de yenilikler.** MSFS’te gösterilen ve gönderilen irtifa artık altimetrede okunan değer (gösterge irtifası); bu değişiklik yalnızca otomatik testlerden geçti, gerçek oturumda kokpit altimetresiyle henüz karşılaştırılmadı. Güncelleme bildirimine tıklayınca güncelleme penceresi açılıyor ve yeni sürüm varken menüde Güncelle düğmesi duruyor. ⚠️ **Otomatik durdurma hâlâ deneyseldir**, gerçek MSFS oturumunda doğrulanmadı. Varsayılan olarak kapalıdır. Bilgisayarın yakınında ol, alçalışı takip et, online uçuşta kullanma; sim duraklatılmış kalırsa MSFS içinden devam ettir.
+**v1.0.8’de yenilikler.** PilotPing MSFS veya Windows ile başladığında çıkan kart artık geliştiricinin fotoğrafını gösteriyor, ekran ölçeğine göre büyüyor ve 12 saniye kalıyor (gerçek bir MSFS açılışında henüz görülmedi). PilotPing'i elle açınca hoş geldin penceresi çıkıyor. v1.0.7'de gelen, MSFS irtifasını altimetre değeri olarak gösterme değişikliği yalnızca otomatik testlerden geçti; kokpit altimetresiyle henüz karşılaştırılmadı. ⚠️ **Otomatik durdurma hâlâ deneyseldir**, gerçek MSFS oturumunda doğrulanmadı. Varsayılan olarak kapalıdır. Bilgisayarın yakınında ol, alçalışı takip et, online uçuşta kullanma; sim duraklatılmış kalırsa MSFS içinden devam ettir.
 
-**[Windows Kurulum Dosyası (.exe)](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-Setup.exe)** · **[Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-Portable.zip)** · **[En Güncel Sürüm](https://github.com/erencevikk/PilotPing/releases/latest)**
+**[Windows Kurulum Dosyası (.exe)](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-Setup.exe)** · **[Portable ZIP](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-Portable.zip)** · **[En Güncel Sürüm](https://github.com/erencevikk/PilotPing/releases/latest)**
 
 ### 🚀 Kurulum
 
-1. `PilotPing-v1.0.7-Setup.exe` kurulum dosyasını çalıştır veya Portable ZIP’i bir klasöre çıkarıp içindeki `PilotPing.exe` dosyasını aç.
+1. `PilotPing-v1.0.8-Setup.exe` kurulum dosyasını çalıştır veya Portable ZIP’i bir klasöre çıkarıp içindeki `PilotPing.exe` dosyasını aç.
 2. MSFS 2020/2024'ü başlat ve simülatör bağlantısını denetle.
 3. Ayarlar'dan dili, bildirimleri ve isteğe bağlı entegrasyonları yapılandır.
 4. Telegram bildirimleri için bot ve sohbet bilgilerini gir.
@@ -132,7 +132,7 @@ PilotPing, ATC istemcisinin ya da pilotun uçuşu takip etme sorumluluğunun yer
 
 - [Yeni sürümler ve değişiklikler](https://github.com/erencevikk/PilotPing/releases/latest)
 - [Hata bildir / özellik öner](https://github.com/erencevikk/PilotPing/issues/new)
-- [İndirme dosyalarının SHA-256 doğrulaması](https://github.com/erencevikk/PilotPing/releases/download/v1.0.7/PilotPing-v1.0.7-SHA256SUMS.txt)
+- [İndirme dosyalarının SHA-256 doğrulaması](https://github.com/erencevikk/PilotPing/releases/download/v1.0.8/PilotPing-v1.0.8-SHA256SUMS.txt)
 
 Uçuş kayıtları yerel saklanır. Telegram etkinse seçtiğin bildirim içerikleri Telegram üzerinden iletilir. Hata raporlarında bot tokenı, Chat ID veya özel bilgi paylaşma.
 
